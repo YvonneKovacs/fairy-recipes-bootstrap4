@@ -1,0 +1,61 @@
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* cover */
+
+#cover {
+    background: #222 url('img/cover2.jpg') center center no-repeat;
+    background-size: cover;
+    color: black;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-caption {
+    width: 80%;
+	margin:auto;
+	opacity: 0.8;
+	background-color:black;
+	color:white;
+	border: 2px solid green;
+	padding: 20px;
+}
+
+#search {
+	justify-content:center;
+}
+
+.bg-custom-1 {
+    background-color: tea;
+}
+.section-content {
+    padding: 7.4rem 0;
+}
+
+#about {
+    background: url('img/cook.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.about-text {
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 4rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}

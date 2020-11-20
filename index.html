@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Fairy Recipes</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<!-- Font Awesome 5 Icons -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
+  <body>
+    
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><i class='fas fa-seedling'> Fairy Recipes </i></a>
+		<button class="navbar-toggler hidden-sm-up " type="button" data-toggle="collapse" data-target="#recipesNavbar">
+        &#9776;
+        </button>
+        <div class="collapse navbar-collapse" id="recipesNavbar">
+            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#cover">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#recipes">Recipes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#news">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-success" href="#">Sign in</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+	
+    
+	
+    <section id="cover">
+        <div id="cover-caption">
+            <div class="container">
+                <div class="col-sm-10 col-sm-offset-1">
+                    <h1 class="display-3">Fairy Recipes</h1>
+                    <p>A variety of recipes and cooking-related articles with a focus on thoughtful and happy living.</p>
+                    <form id="search" action="" class="form-inline">
+                        <label class="sr-only">Search</label>
+						<input class="form-control mr-sm-2" type="search" placeholder="Type in Recipe" aria-label="Search">
+						<button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                    <br>
+                    <a href="#recipes" class="btn btn-outline-light btn-sm" role="button">&darr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+	    
+    <section id="recipes">
+         <div class="section-content">
+             <div class="container">
+                 <h2>What is Fairy Recipes about?</h2>
+                 <p class="lead">Find and share everyday cooking inspiration. Discover based on the food you love.</p>
+             
+                 <div class="row">
+                     <div class="col-sm-12">
+                         <div class="card-group">
+                             <div class="card">
+                                 <div class="card-body">
+                                     <h4 class="card-title">Appetizers</h4>
+                                     <h6 class="card-subtitle">Awesome Ideas for Appetizer Recipes </h6>
+                                 </div>
+                                 <img src="img/appetizer1.jpg" alt="appetizer">
+                                 <div class="card-body">
+                                     <p class="card-text"> Find the perfect nibble, bite and nosh among these killer appetizer recipes.</p>
+                                     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#myModal">See more</button>
+                                 </div>
+                             </div>
+
+                             <div class="card">
+                                 <div class="card-body">
+                                     <h4 class="card-title">Main courses</h4>
+                                     <h6 class="card-subtitle">Delicious Ideas for Main course Recipes</h6>
+                                 </div>
+                                 <img src="img/main-course.jpg" alt="main course">
+                                 <div class="card-body">
+                                     <p class="card-text">Hundreds of main dish recipes. Choose from top-rated comfort food, healthy, and vegetarian options. Find your dinner star now!</p>
+										<ul>
+											<li>Soups and Stews</li>
+											<li>Beef Main Dishes</li>
+											<li>Chicken Main Dishes</li>
+											<li>Pasta Main Dishes</li>
+											</ul>
+									 <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#myModal">See more</button>
+                                 </div>
+                             </div>
+
+                             <div class="card">
+                                 <div class="card-body">
+                                     <h4 class="card-title">Shakes &amp; Desserts</h4>
+                                     <h6 class="card-subtitle">Healthy Ideas for Desserts</h6>
+                                 </div>
+                                 <img src="img/dessert1.jpg" alt="dessert">
+                                 <div class="card-body">
+                                     <p class="card-text">When the sweet tooth comes a-knockin', dish up one these luscious dessert options. Whether it's brownies, pie, or cake that strikes your fancy. </p>
+                                     <button type="button" class="btn btn-outline-dark" data-toggle="modal" data-target="#myModal">See more</button>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </section>
+    
+    
+    
+    <section id="about">
+        <div class="section-content">
+            <div class="container">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3>About me</h3>
+                        <p class="lead">My love for cooking began at an early age. As the daughter of restaurant owners, I practically grew up in the kitchen, learning the recipes and traditions of my family’s culture. To turn my passion into a profession, I enrolled in a fast-track program at Charles & Wales University, earning a degree in culinary arts. Following graduation, I rolled up my sleeves and got to work, taking jobs in fine-dining establishments and banquet halls at high-end hotels and country clubs.</p>
+                        
+                        <h5>Follow me on the web</h5>
+                        <a href="" class="btn btn-sm btn-outline-light">Instagram</a>
+                        <a href="" class="btn btn-sm btn-outline-light">Facebook</a>
+                        <a href="" class="btn btn-sm btn-outline-light">Youtube</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <section id="news">
+        <div class="section-content">
+            <div class="container">
+                
+                <h3>Newest recipes</h3>
+                <p class="lead">A collection of our favorite just-released recipes. </p>
+                
+                <hr>
+                
+                <div class="row">
+                    <div class="col-sm-12">
+                        
+                        <div class="card-columns">
+                            <div class="card">
+                                <img class="card-img-top" src="img/cramberry-cake.jpg" alt="cramberry cake">
+                                <div class="card-body">
+                                    <h4 class="card-title">Cramberry cake with </h4>
+                                    <p class="card-text"> Sweet buttery cake, and a fantastic texture all combine in this Cranberry Christmas Cake. This recipe is a holiday favorite!</p>
+									<p class="card-text"><small class="text-muted">Posted 3 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card card-body bg-dark text-white">
+                                <blockquote class="card-bodyquote">
+                                    <p>Let food be thy medicine and medicine be thy food.</p>
+                                    <footer>
+                                        <small class="text-white">
+                                         Hippocrates
+                                        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>
+							<div class="card">
+                                <img class="card-img-top" src="img/avocado-salad.jpg" alt="avocado salad">
+								<div class="card-body">
+									<h4 class="card-title">Avocado Salad</h4>
+									<p class="card-text">Salad Yet another reason to love avocados. In a small bowl, whisk together oil, lime juice, and cumin. Season dressing with salt and pepper.</p>
+									<p class="card-text"><small class="text-muted">Posted 9 min ago</small></p>
+								</div>
+							</div>
+                            <div class="card">
+                                <img class="card-img-top" src="img/salmon.jpg" alt="salmon">
+                                <div class="card-body">
+                                    <h4 class="card-title">Salmon</h4>
+                                    <p class="card-text">Quick and easy one-pan oven Baked Salmon And Vegetables are perfect for busy weeknights. This colorful one pan meal is nutritious that takes under 30 mins to prepare.</p>
+                                    <p class="card-text"><small class="text-muted">Posted 12 mins ago</small></p>
+                                </div>
+                            </div>
+                            <div class="card card-body bg-dark text-white text-xs-center">
+                                <blockquote class="card-bodyquote">
+                                    <p>Pull up a chair. Take a taste. Come join us. Life is so endlessly delicious.</p>
+                                    <footer>
+                                        <small class="text-white">
+                                        Ruth Reichl
+                                        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>
+							
+                            <div class="card">
+								<div class="card-body">
+									<h4 class="card-title">Ribs</h4>
+									<p class="card-text">Baking low and slow is the secret to these fall-off-the-bone oven baked ribs.</p>
+									<p class="card-text"><small class="text-muted">Posted 32 mins ago</small></p>
+								</div>
+								<img class="card-img" src="img/ribs.jpg" alt="ribs"> 
+                            </div>
+                            <div class="card card-body text-xs-right bg-dark text-white">
+                                <blockquote class="card-bodyquote">
+                                    <p>One cannot think well, love well, sleep well, if one has not dined well.</p>
+                                    <footer>
+                                        <small  class="text-white">
+                                        Virginia Woolf in <cite title="Source Title">A Room of One's Own </cite>
+                                        </small>
+                                    </footer>
+                                </blockquote>
+                            </div>
+							<div class="card">
+                                <img class="card-img-top" src="img/noodle-soup.jpg" alt="noodle soup">
+								<div class="card-body">
+									<h4 class="card-title">Noodle soup</h4>
+									<p class="card-text">In a large saucepan, heat the chicken stock and bring to a boil. Add the green onions, Bok Choy or Chinese greens, soy sauces, oyster sauce and the noodles. Reduce the heat and cook according to noodle package instructions (just until tender). Serve hot.</p>
+									<p class="card-text"><small class="text-muted">Posted 1 hour ago</small></p>
+								</div>
+							</div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+    
+    <footer id="footer-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+            
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="">home</a></li>
+                        <li><a href="">what we do</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">latest</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <ul class="list-unstyled">
+                        <li><a href="">facebook</a></li>
+                        <li><a href="">twitter</a></li>
+                        <li><a href="">youtube</a></li>
+                        <li><a href="">linkedin</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h6>a tiny header</h6>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam expedita fugit saepe, eum ad, quam! Eum magnam suscipit nulla ullam aliquam consectetur provident, nihil consequuntur porro labore asperiores corrupti esse?</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+	
+	
+
+ 
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
